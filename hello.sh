@@ -2,4 +2,5 @@
 
 echo "Welcome to Git"
 echo "Git is  small"
+echo " Git hub is free"
 echo "Revanth K"
