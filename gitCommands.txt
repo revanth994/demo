@@ -1,0 +1,73 @@
+  430  git config --global user.name "John Doe"
+  431  git config --global user.name "revanth994"
+  432  git config --global user.name.email krevanthn@gmail.com
+  433   git config --list
+  434   git config --list
+  435   git config --list --show-origin
+  436  git config --list
+  437  git config --list 
+  445  git init
+  446  git init
+  447  git init
+  448  git add hello.sh
+  449  git status
+  450  git commit -m "Added hello.sh"
+  451  git commit -m "Added hello.sh"
+  452  git config --list
+  453  git config --global user.email krevanthn@gmail.com
+  454  git config --list
+  455  git commit -m "Added hello.sh"
+  456  git status
+  457  git remote add origin https://github.com/revanth994/demo.git
+  458  git push origin master
+  459  git push origin master
+  460  git push origin master
+  462  git add hello.sh
+  463  git commit -m "ADD added a statement to print a name hello.sh"
+  464  git status
+  465  git push origin master 
+  503  git pull origin master
+  505  git push origin master
+  507  git add.
+  508  git add .
+  509  git commit -m "Fixed the conflicts"
+  510  git push origin master
+  512  git pull origin master
+  513  git push origin master
+  514  git pull origin master
+  517  git add .
+  518  git commit -m "checking"
+  519  git push origin master
+  521  git branch dev
+  522  git status
+  523* git 
+  524  git checkout
+  525  git checkout dev
+  526  git status
+  527  git status 
+  529  git add .
+  530  git commit -m "commit to dev"
+  531  git push origin dev
+  533  git diff master
+  535  git diff dev
+  536  git merge master
+  538  git checkout
+  539  git checkout dev
+  540  git checkout master
+  542  git pull origin master
+  544  git checkout dev
+  546  git diff master
+  547  git merge master
+  549  git add .
+  550  git commit -m "new line updated"
+  551  git push origin dev
+  554  git checkout master
+  556  git diff dev
+  557  git merge dev
+  558  git add .
+  559  git commit -m "changing the command"
+  560  git push origin master
+  562  git pull origin master
+  564* grep git
+  565  history | grep git
+  566  history | grep git > gitCommands.txt
