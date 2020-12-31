@@ -1,13 +1,11 @@
-#!/bin/bash
+#!/bin/bash -x
 echo "welcome to Employee Wage Computation"
-ispresent=1;
-randomcheck=$((RANDOM%3))
+
 isFulltime=1
 isParttime=2
 empwagePrHr=20
+empcheck=$((RANDOM%3))
 case  $empcheck in
-if [ $ispresent -eq $randomcheck ];
-	echo "Employee is present"
 	$isFulltime)
 		empHrs=8
 		;;
@@ -17,7 +15,5 @@ if [ $ispresent -eq $randomcheck ];
 	*)
 		empHrs=0
 		;;
-	echo "Employee is absent"
-fi
 esac
 salary=$(( $empHrs * $empwagePrHr ))
